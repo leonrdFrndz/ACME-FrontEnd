@@ -21,6 +21,7 @@
     padding-left: 80px; padding-right: 80px;
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
+    font-size: large;
     display: flex; flex-direction: row;
     align-items: center; justify-content: space-between;
 }
@@ -109,6 +110,7 @@
     margin: 10px;
     background: black; color: white;
     border-radius: 25px;
+    cursor: pointer;
     display: flex;
     align-items: center; justify-content: center;
 }
