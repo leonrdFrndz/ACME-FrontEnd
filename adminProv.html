@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME - Administrador</title>
+    <link rel="stylesheet" href="css/styleAdminProv.css">
+    
+    <!-- JS GoogleFonts -->
+</head>
+
+<body>
+
+    <div class="Header-Container">
+        <div class="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="ACME" class="imgLogo">
+            </div>
+            <div class="salir" id="salir">
+                <p class="aP">SALIR</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Content-Container">
+        <div class="buscador">
+            <div class="titulo">
+                <h1>Administrar Proveedores</h1>
+            </div>
+            <div class="buscar">
+                <input type="number" placeholder="Buscar Proveedor">
+                <p class="aP">(Digíte ID del proveedor)</p>
+            </div>
+        </div>
+
+        <div class="info-prov">
+            <div class="datos-proveedor">
+                <div class="label-input">
+                    <label for="ID">ID</label>
+                    <input type="number">
+                </div>
+                <div class="label-input">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text">
+                </div>
+                <div class="label-input">
+                    <label for="encargado">Encargado</label>
+                    <input type="text">
+                </div>
+                <div class="label-input">
+                    <label for="ciudad">Ciudad</label>
+                    <select name="ubicacion" id="ubicacion">
+                        <option>Popayán</option>
+                        <option>Cali</option>
+                        <option>Bogotá</option>
+                        <option>Medellín</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="label-input">
+                    <label for="direccion">Dirección</label>
+                    <input type="text">
+                </div>
+                <div class="label-input">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="botones">
+                <div class="btn">Añadir Proveedor</div>
+                <div class="ajustes">
+                    <div class="btn">Modificar</div>
+                    <div class="btn">Guardar</div>
+                    <div class="btn">Eliminar</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grillas">
+            <div class="ordenesTrabajo">
+                <div class="titulo">
+                    <h1>Órdenes de Trabajo Asociadas</h1>
+                </div>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="cotizaciones">
+                <div class="titulo">
+                    <h1>Cotizaciones Asociadas</h1>
+                </div>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="listadoClientes">
+                <div class="titulo">
+                    <h1>Listado de Clientes</h1>
+                </div>
+                <div class="tabla">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Footer-Container">
+        <p class="aP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Sed non cum sapiente adipisci rerum nesciunt odio harum in? Vitae 
+            incidunt quia accusantium, sint ea ipsam possimus id vel! Officiis, cumque?</p>
+
+        <p class="aP">Copyright 2020 ACME S.A.S</p>
+    </div>
+    
+</body>
+</html>
