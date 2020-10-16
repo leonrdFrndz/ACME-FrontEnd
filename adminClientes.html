@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACME - Administrador</title>
-    <link rel="stylesheet" href="css/styleAdminProv.css">
+    <link rel="stylesheet" href="css/styleAdminClientes.css">
     
     <!-- JS GoogleFonts -->
 </head>
@@ -25,50 +25,48 @@
     <div class="Content-Container">
         <div class="buscador">
             <div class="titulo">
-                <h1>Administrar Proveedores</h1>
+                <h1>Administrar Clientes</h1>
             </div>
             <div class="buscar">
-                <input type="number" placeholder="Buscar Proveedor">
-                <p class="aP">(Digíte ID del proveedor)</p>
+                <input type="number" placeholder="Buscar Clienter">
+                <p class="aP">(Digíte ID del cliente)</p>
             </div>
         </div>
 
-        <div class="info-prov">
-            <div class="datos-proveedor">
+        <div class="info-cliente">
+            <div class="datos-cliente">
                 <div class="label-input">
                     <label for="ID">ID</label>
                     <input type="number">
                 </div>
                 <div class="label-input">
-                    <label for="nombre">Nombre Completo</label>
+                    <label for="nombre">Nombre(s)</label>
                     <input type="text">
                 </div>
                 <div class="label-input">
-                    <label for="encargado">Encargado</label>
+                    <label for="apellido">Apellido(s)</label>
                     <input type="text">
                 </div>
                 <div class="label-input">
-                    <label for="ciudad">Ciudad</label>
-                    <select name="ubicacion" id="ubicacion">
-                        <option>Popayán</option>
-                        <option>Cali</option>
-                        <option>Bogotá</option>
-                        <option>Medellín</option>
-                        <option>...</option>
-                    </select>
+                    <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                    <input type="date">
                 </div>
                 <div class="label-input">
-                    <label for="direccion">Dirección</label>
-                    <input type="text">
+                    <label for="email">E-mail</label>
+                    <input type="email">
                 </div>
                 <div class="label-input">
                     <label for="telefono">Teléfono</label>
                     <input type="number">
                 </div>
+                <div class="label-input">
+                    <label for="empresa">Empresa Asociada</label>
+                    <input type="text">
+                </div>
             </div>
 
             <div class="botones">
-                <div class="btn">Añadir Proveedor</div>
+                <div class="btn">Añadir Cliente</div>
                 <div class="ajustes">
                     <div class="btn">Modificar</div>
                     <div class="btn">Guardar</div>
@@ -162,9 +160,9 @@
                     </table>
                 </div>
             </div>
-            <div class="listadoProveedores">
+            <div class="listadoClientes">
                 <div class="titulo">
-                    <h1>Listado de Proveedores</h1>
+                    <h1>Listado de Clientes</h1>
                 </div>
                 <div class="tabla">
                     <table>
