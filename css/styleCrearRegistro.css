@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.aP{ text-align: justify; }
+
+/* ---------------------- Header-Container ---------------------- */
+
+.Header-Container{
+    width: 100%; height: 80px;
+    background-image: url(/images/banner.jpeg); background-position: center;
+}
+.Header-Container .nav{
+    width: 100%; height: 80px;
+    padding-left: 80px; padding-right: 80px;
+    background: rgba(0, 0, 0, 0.8);
+    font-size: large;
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: space-between;
+}
+.Header-Container .nav .imgLogo{
+    width: 200px; height: 60px;
+    cursor: pointer;
+}
+.Header-Container .nav .salir{
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------------------- Content-Container ---------------------- */
+
+.Content-Container .cabecera  input{
+    width: 300px; height:30px;
+    margin: 10px;
+    text-align: center; font-size: medium; line-height: 40px;
+}
+.Content-Container .controlRegistro{
+    width: 100%; height: auto;
+    padding-top: 10px; padding-bottom: 10px;
+    margin-top: 20px; margin-bottom: 20px;
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+}
+
+.Content-Container .controlRegistro .titulo{ width: 100%; }
+
+.Content-Container .controlRegistro .fecha{
+    width: 100%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+}
+.Content-Container .asociarCliente{
+    width: 100%; height: auto;
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+}
+
+.Content-Container .asociarCliente .titulo{ width: 100%; }
+.Content-Container .asociarCliente .idCliente{ width: 100%; }
+
+.Content-Container .cotizaciones{
+    width: 100%; height: auto;
+    padding-top: 10px; padding-bottom: 10px;
+    margin-top: 20px; margin-bottom: 20px;
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+}
+.Content-Container .cotizaciones .criterioBusqueda select{ 
+    width: 250px; height:30px;
+    text-align: center; font-size: medium; line-height: 40px;
+}
+
+.Content-Container .cotizaciones .criterioBusqueda{ width: 100%; }
+.Content-Container .cotizaciones .buscarProducto{ width: 100%; }
+
+.Content-Container .info-Producto{
+    width: 100%; height: auto;
+    margin-top: 40px; margin-bottom: 40px;
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+}
+.Content-Container .info-Producto .datos-productos{
+    width: 100%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+}
+.Content-Container .info-Producto .datos-productos .label-input{
+    margin: 5px;
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+}
+.Content-Container .info-Producto .datos-productos .label-input label{
+    width: 200px;
+    text-align: left;
+    font-weight: bold;
+}
+.Content-Container .info-Producto .datos-productos .label-input input, .Content-Container .info-Producto .datos-productos .label-input select{
+    width: 250px; height:30px;
+    background-color: rgb(205, 205, 205);
+    text-align: center; font-size: medium; line-height: 40px;
+}
+.Content-Container .info-Producto .datos-productos .label-input.descripcion input{
+    width: 250px; height: 60px;
+    text-align: left; font-size: medium; line-height: 40px;
+}
+.Content-Container .info-Producto .botones{
+    width: 100%;
+    display: flex; flex-direction: column;
+    align-items: center;
+}
+.Content-Container .info-Producto .botones .ajustes{
+    margin-top: 20px; margin-bottom: 20px;
+}
+.Content-Container .info-Producto .botones .btn{
+    width: 180px; height: 50px;
+    margin: 10px;
+    background: black; color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center; justify-content: center;
+}
+.Content-Container .grilla-productos{
+    width: 100%; height: auto;
+    margin-bottom: 20px;
+}
+.Content-Container .grilla-productos .titulo{
+    margin-top: 50px;
+}
+.Content-Container .grilla-productos .tabla{
+    margin-top: 20px;
+    padding: 20px;
+}
+.Content-Container .grilla-productos table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.Content-Container .grilla-productos td, th{
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+.Content-Container .grilla-productos .precioFinal{
+    width: 100%; 
+    display: flex; flex-direction: row;
+    align-items: center; justify-content: center;
+}
+.Content-Container .grilla-productos .precioFinal input{
+    width: 300px; height:30px;
+    margin: 10px;
+    text-align: center; font-size: medium; line-height: 40px;
+}
+.Content-Container .grilla-productos .precioFinal .tituloF{ width: 100%; }
+.Content-Container .grilla-productos .precioFinal .inputTotal{ width: 100%; }
+
+
+/* ---------------------- Footer-Container ---------------------- */
+
+.Footer-Container{
+    width: 100%; height: 80px;
+    background-color: black; color: white;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+}

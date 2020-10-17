@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME - Crear Registro</title>
+    <link rel="stylesheet" href="css/styleCrearRegistro.css">
+    
+    <!-- JS GoogleFonts -->
+</head>
+
+<body>
+
+    <div class="Header-Container">
+        <div class="nav">
+            <div class="logo">
+                <img src="images/logo.png" alt="ACME" class="imgLogo">
+            </div>
+            <div class="salir" id="salir">
+                <p class="aP">SALIR</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Content-Container">
+        <div class="cabecera">
+            <div class="controlRegistro">
+                <div class="titulo">
+                    <h2>Creación del Registro</h2>
+                </div>
+                <div class="fecha">
+                    <input type="date">
+                </div>
+            </div>
+    
+            <div class="asociarCliente">
+                <div class="titulo">
+                    <h2>Asociar al Cliente</h2>
+                </div>
+                <div class="idCliente">
+                    <input type="number" placeholder="ID del Cliente">
+                </div>
+            </div>
+    
+            <div class="cotizaciones">
+                <div class="criterioBusqueda">
+                    <select name="criterioBuscar" id="criterioBuscar">
+                        <option hidden selected>Criterio de Búsqueda</option>
+                        <option>Código del producto</option>
+                        <option>Nombre del producto</option> 
+                    </select>
+                </div>
+                <div class="buscarProducto">
+                    <input type="text" placeholder="Buscar Producto">
+                </div>
+            </div>
+        </div>
+
+        <div class="info-venta">
+            <h1>Información del Producto</h1>
+            <div class="info-Producto">
+                <div class="datos-productos">
+                    <div class="label-input">
+                        <label for="codigo">Código</label>
+                        <input type="number">
+                    </div>
+                    <div class="label-input">
+                        <label for="nombre-producto">Nombre Producto</label>
+                        <input type="text">
+                    </div>
+                    <div class="label-input">
+                        <label for="marca">Marca</label>
+                        <input type="text">
+                    </div>
+                    <div class="label-input">
+                        <label for="modelo">Modelo</label>
+                        <input type="text">
+                    </div>
+                    <div class="label-input">
+                        <label for="precio">Precio</label>
+                        <input type="number">
+                    </div>
+                    <div class="label-input descripcion">
+                        <label for="descripcion">Descripción</label>
+                        <input type="text">
+                    </div>
+                </div>
+    
+                <div class="botones">
+                    <div class="btn">Añadir Producto</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grilla-productos">
+            <div class="titulo">
+                <h1>Productos Añadidos</h1>
+            </div>
+            <div class="tabla">
+                <table>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre Producto</th>
+                        <th>Precio Unidad</th>
+                        <th>Cantidad</th>
+                        <th>Precio Total</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+            <div class="precioFinal">
+                <div class="tituloF">
+                    <h2>Total Facturado</h2>
+                </div>
+                <div class="inputTotal">
+                    <input type="text" readonly>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="Footer-Container">
+        <p class="aP">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Sed non cum sapiente adipisci rerum nesciunt odio harum in? Vitae 
+            incidunt quia accusantium, sint ea ipsam possimus id vel! Officiis, cumque?</p>
+
+        <p class="aP">Copyright 2020 ACME S.A.S</p>
+    </div>
+    
+</body>
+</html>
