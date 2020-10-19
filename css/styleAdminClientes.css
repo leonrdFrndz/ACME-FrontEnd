@@ -5,8 +5,12 @@
     text-align: center;
 }
 
-.aP{
+.P{
     text-align: justify;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 
 /* ---------------------- Header-Container ---------------------- */
@@ -19,13 +23,11 @@
     width: 100%; height: 80px;
     padding-left: 80px; padding-right: 80px;
     background: rgba(0, 0, 0, 0.8);
-    font-size: large;
     display: flex; flex-direction: row;
     align-items: center; justify-content: space-between;
 }
 .Header-Container .nav .imgLogo{
     width: 200px; height: 60px;
-    cursor: pointer;
 }
 .Header-Container .nav .salir{
     color: white;
@@ -41,19 +43,17 @@
     display: flex; flex-direction: row;
     align-items: center; justify-content: center;
 }
-.Content-Container .titulo{
+.Content-Container input, .Content-Container select{
+    width: 250px; height:30px;
+    text-align: center; font-size: medium; line-height: 40px;
+} 
+.Content-Container .buscador .titulo{
     width: 100%;
-    font-size: large;
 }
-.Content-Container .buscar{
+.Content-Container .buscador .buscar{
     width: 100%;
     display: flex; flex-direction: column;
     align-items: center; justify-content: center;
-}
-.Content-Container .buscar input{
-    width: 250px; height:30px;
-    margin: 10px;
-    text-align: center; font-size: medium; line-height: 40px;
 }
 .Content-Container .info-cliente{
     width: 100%; height: auto;
@@ -102,23 +102,23 @@
     display: flex;
     align-items: center; justify-content: center;
 }
-.Content-Container .grillas{
+.Content-Container .grilla{
     width: 100%; height: auto;
     margin-bottom: 20px;
     font-size: large;
 }
-.Content-Container .grillas .titulo{
+.Content-Container .grilla .titulo{
     margin-top: 50px;
 }
-.Content-Container .grillas .tabla{
+.Content-Container .grilla .tabla{
     margin-top: 20px;
     padding: 20px;
 }
-.Content-Container .grillas table{
+.Content-Container .grilla table{
     width: 100%;
     border-collapse: collapse;
 }
-.Content-Container .grillas td, th{
+.Content-Container .grilla td, th{
     padding: 8px;
     border: 1px solid #dddddd;
     text-align: center;
